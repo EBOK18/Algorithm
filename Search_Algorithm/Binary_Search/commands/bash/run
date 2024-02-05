@@ -1,0 +1,13 @@
+#! /bin/bash
+
+projectPath="/home/kobetuazon/Programming/Projects_and_Files/Algorithm/Search_Algorithm/Binary_Search/"
+srcPath="${projectPath}src/"
+binPath="${projectPath}bin/"
+objPath="${projectPath}obj/"
+mainFile="main.c"
+outputFile="output"
+objFile="main.o"
+
+gcc -c $srcPath$mainFile -o $objPath$objFile
+gcc $objPath$objFile -o $binPath$outputFile
+$binPath$outputFile

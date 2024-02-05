@@ -1,0 +1,45 @@
+# NOTES FOR ALGORITHM
+-----
+
+I created this so I can review any parts of algorithm.
+The code that will be use to represent an algorithm is either Bash, Python, or C, but I will mostly use Psuedocode.
+
+## Introduction to Algorithm
++ Before diving in algorithm, we have to understand what algorithmic problem is.
+  ### Algorithmic Problem
+	+ It is specified by describing the complete set of instances of a problem it must work on and its output.
+	+ For instance, the problem is "Sorting" and the input is a sequence of *n* keys, a-1, a-2, ..., a-n; And the output should be the sequence of input in order arrangement.
+
+  ### Simple Fizz Buzz Algorithm
+	+ It is common in job interviews.
+	+ From a sequence of *n* numbers, 
+	+ if *n* is visible by 3, it is substituted with *"fizz"*; 
+	+ if *n* is visible by 5, it is substituted with *"buzz"*; 
+	+ if *n* is simultaneously visible by 3 and 5, it is substituted by *"fizz buzz"*.
+
+	```pseudocode
+		let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 10];
+
+		for number in numbers:
+			if (number % 15) == 0:
+				print("fizz buzz");
+			elif (number % 3) == 0:
+				print("fizz");
+			elif (number % 5) == 0:
+				print("buzz");
+			else:
+				print(number);
+	```
+
+
+
+## Algorithm Complexity
++ We have to calculate or analyze the complexity of an algorithm (of a function) to determine if it is worst, tight or in middle, or best case to solve a problem.
++ We have to analyze the *Time* and *Space* Complexity to determine performance/runtime and resource usage of an algorithm.
+
+**TODO: **
+	1. Study how to calculate *Time and Space Complexity*.
+	2. Study how to use *Big O, Big Theta, and Big Omega* to determine the performance of an algorithm.
+	3. Create some examples to solidify your knowledge about this topic.
+	4. Study the *Complexity Classes*.
+	5. Read the *Introduction to Algorithm* and *Algorithms Notes for Pros* pdfs.
